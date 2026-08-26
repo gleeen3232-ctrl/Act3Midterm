@@ -1,0 +1,80 @@
+
+.signup-form {
+    display: none;
+}
+
+#tab-login:checked ~ .login-form {
+    display: block;
+}
+#tab-login:checked ~ .signup-form {
+    display: none;
+}
+
+
+#tab-signup:checked ~ .signup-form {
+    display: block;
+}
+#tab-signup:checked ~ .login-form {
+    display: none;
+}
+
+#tab-login:checked ~ .toggle-buttons .label-login {
+    background-color:palevioletred !important;
+    border-color:  palevioletred !important;
+    color: white
+}
+
+#tab-signup:checked ~ .toggle-buttons .label-signup {
+    background-color:palevioletred;
+    border-color:  palevioletred !important;
+    color: #fff;
+}
+
+.btn-primary{
+    background-color:  palevioletred !important;
+    border-color:  palevioletred !important;
+}
+
+.landing{
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.kittie{
+    margin-top: 20px;
+}
+
+.header{
+    margin-left: 10px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.card mb-3{
+    margin-right: 50px;
+}
+
+.btn-secondary{
+    background-color:  palevioletred !important;
+    border-color:  palevioletred !important;
+}
+
+.text-center{
+    border-radius: 20px;
+    
+}
+
+.text-primary{
+    color: white !important;
+}
+
+.navbar{
+    background-color: palevioletred !important;
+    color: palevioletred !important;
+}
+
+.navbar1{
+    color: white !important;
+}
+
